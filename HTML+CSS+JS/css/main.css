@@ -61,6 +61,7 @@ p {
     right: 45px;
     border-radius: 50%;
     z-index: 200;
+    transition: all 0.2s ease-out;
   }
 
   .jl-contact-info {
@@ -71,6 +72,7 @@ p {
     bottom: 115px;
     right: 65px;
     z-index: 200;
+    display: none;
   }
 
   .jl-contact-info-inner {
@@ -220,4 +222,14 @@ p {
 }
 .jl-bg-black {
   background-color: #000; 
+}
+
+/* classes de comportamento */
+.jl-is-open {
+  display: block;
+
+}
+
+.jl-change-icon {
+  background-position-y: -45px;
 }

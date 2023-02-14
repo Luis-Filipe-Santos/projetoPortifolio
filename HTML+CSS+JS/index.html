@@ -45,13 +45,40 @@
       </div>
 
       <div class="jl-modal-body">
-        <p class="jl-text-light">
-          Por favor informe os dados abaixo e eu entrarei em contato com você o
-          mais breve possível.
-        </p>
-        <form class="jl-form">
-          <input type="text" name="Nome" id="jl-nome" class="jl-field"/>
-        </form>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="jl-text-light">
+              Por favor informe os dados abaixo e eu entrarei em contato com você o
+              mais breve possível.
+            </p>
+          </div>
+        </div>
+
+        <div class="row jl-mar-top-15">
+          <div class="col-sm-12">
+            <form class="jl-form">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 jl-mar-bottom-15">
+                  <label for="Nome" class="jl-text-light">Nome</label>
+                  <input type="text" name="Nome" placeholder="Seu nome" id="jl-nome" class="jl-field"/>
+                  <label for="Telefone" class="jl-text-light">Telefone</label>
+                  <input type="tel" name="Telefone" placeholder="Seu Telefone" id="jl-Telefone" class="jl-field"/>
+                </div>
+                <div class="col-sm-12 col-md-6 jl-mar-bottom-15">
+                  <label for="Email" class="jl-text-light">Email</label>
+                  <input type="email" name="Email" placeholder="Seu Email" id="jl-email" class="jl-field"/>
+                  <label for="Site" class="jl-text-light">Site</label>
+                  <input type="url" name="Site" placeholder="Seu Site" id="jl-site" class="jl-field"/>
+                </div>
+
+              <div class="col-sm-12 col-md-12 jl-mar-top-15">
+                <label for="Mensagem" class="jl-text-light">Descreva aqui o projeto no qual você precisa de orçamento</label>
+                <textarea class="jl-textarea" name="Mensagem" id="jl-mensagem" rows="8" placeholder="Descreva aqui" ></textarea>
+              </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
 

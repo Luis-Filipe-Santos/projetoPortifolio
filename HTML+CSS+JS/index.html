@@ -10,7 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap-grid.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/bootstrap-grid.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <title>João Lemon - UX/UI Designer</title>
   </head>
@@ -27,6 +31,27 @@
         <p class="jl-text-light jl-mar-top-15">
           Aguarde um pouco... Estou preparando o Site ...
         </p>
+      </div>
+    </div>
+
+    <!-- Overlay e Modal -->
+    <div class="jl-overlay"></div>
+
+    <div class="jl-modal jl-bg-black">
+      <div class="jl-modal-header">
+        <h1 class="jl-title jl-text-green">Solicite um Orçamento</h1>
+
+        <button class="jl-close-modal">X</button>
+      </div>
+
+      <div class="jl-modal-body">
+        <p class="jl-text-light">
+          Por favor informe os dados abaixo e eu entrarei em contato com você o
+          mais breve possível.
+        </p>
+        <form class="jl-form">
+          <input type="text" name="Nome" id="jl-nome" class="jl-field"/>
+        </form>
       </div>
     </div>
 
@@ -69,35 +94,40 @@
     <!--Botão de Contato-->
 
     <div class="jl-page-wrapper">
-
       <!-- Section 1 -->
-      <section class="jl-full-height jl-first-section" id="jl-home-presentation">
+      <section
+        class="jl-full-height jl-first-section"
+        id="jl-home-presentation"
+      >
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-12 col-md-3 offset-md-2 jl-display-text">
-              <h1 class="jl-title jl-text-green jl-title-big ">Olá!</h1>
-              <p class="jl-text-light">Meu nome é <span class="jl-text-green">João Lemon</span>, sou designer de <span class="jl-text-green"> UX e UI</span>. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quos magni id sequi debitis exercitationem a illo hic ullam distinctio laboriosam aspernatur animi totam non dicta ad, eos, incidunt perspiciatis!</p>
+              <h1 class="jl-title jl-text-green jl-title-big">Olá!</h1>
+              <p class="jl-text-light">
+                Meu nome é <span class="jl-text-green">João Lemon</span>, sou
+                designer de <span class="jl-text-green"> UX e UI</span>. Lorem
+                ipsum dolor sit amet consectetur, adipisicing elit. Cumque quos
+                magni id sequi debitis exercitationem a illo hic ullam
+                distinctio laboriosam aspernatur animi totam non dicta ad, eos,
+                incidunt perspiciatis!
+              </p>
 
-
-              <button href="#" class="jl-btn jl-btn-medium jl-btn-green">Meu Botão</button>
-
+              <button href="#" class="jl-btn jl-btn-medium jl-btn-green">
+                solicite um orçamento
+              </button>
             </div>
           </div>
         </div>
 
         <div class="jl-scroll-down">
           <div class="jl-arrow-down">
-            <img src="./images/arrow-down.svg" alt="Role a página">
+            <img src="./images/arrow-down.svg" alt="Role a página" />
           </div>
         </div>
-
       </section>
 
       <!-- Section 2 -->
-      <section class="jl-full-height">
-
-      </section>
-
+      <section class="jl-full-height"></section>
     </div>
 
     <script src="./js/main.js"></script>
